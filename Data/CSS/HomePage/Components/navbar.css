@@ -1,0 +1,16 @@
+.navbar-header {
+	text-align: center;
+	width: 100%;
+}
+
+.navbar-default {
+	height: 60px;
+	margin-top -20px;
+	width: 100%;
+	box-shadow: 5px 5px 5px darkgrey;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: white;
+	z-index: 1;
+}

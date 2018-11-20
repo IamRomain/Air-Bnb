@@ -1,0 +1,46 @@
+.container-fluid {
+	background-color: #E6E6E6;
+}
+
+.box-right {
+	margin: 20px;
+	height: 89vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 1px 1px 3px darkgrey;
+	position: -webkit-sticky;
+	/* Safari */
+	position: sticky;
+	top: 80px;
+}
+
+.box-size-right {
+	height: 100%;
+	width: 100%
+}
+
+
+/* Centered text */
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 57%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-weight: 900;
+}
+
+
+@media screen and (max-width: 640px) {
+
+	.box-right {
+		margin: 20px;
+		height: 40vh;
+		width: 90%;
+	}
+
+	.centered {
+		left: 50%;
+	}
+}
