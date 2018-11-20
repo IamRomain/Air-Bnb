@@ -25,22 +25,18 @@
 .centered {
 	position: absolute;
 	top: 50%;
-	left: 57%;
+	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
 	font-weight: 900;
+	text-align: center;
 }
 
 
 @media screen and (max-width: 640px) {
-
 	.box-right {
 		margin: 20px;
 		height: 40vh;
 		width: 90%;
-	}
-
-	.centered {
-		left: 50%;
 	}
 }

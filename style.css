@@ -1,3 +1,22 @@
 @import url(Data/CSS/HomePage/Components/cards.css);
 @import url(Data/CSS/HomePage/Components/navbar.css);
 @import url(Data/CSS/HomePage/Layout/layout.css);
+
+body,
+html {
+	text-align: center;
+}
+
+
+.photos-collection {
+	height: 50vh;
+	width: 100%;
+}
+
+h5 {
+	margin: 10px;
+}
+
+.img-fluid {
+	margin-bottom: 20px;
+}
