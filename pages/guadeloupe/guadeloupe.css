@@ -2,14 +2,14 @@
 	font-family: 'Circular Std Medium';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Circular Std Medium'), url('../../data/font/CircularStd-Medium.woff') format('woff');
+	src: local('Circular Std Medium'), url('../../data/fonts/CircularStd-Medium.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Circular Std Book';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Circular Std Book'), url('../../data/font/CircularStd-Book.woff') format('woff');
+	src: local('Circular Std Book'), url('../../data/fonts/CircularStd-Book.woff') format('woff');
 }
 
 body,
