@@ -1,0 +1,10 @@
+.nav-link {
+	color: white;
+	font-weight: 900;
+}
+
+@media (max-width: 640px) {
+	.navbar-brand {
+		margin-left: 3rem;
+	}
+}

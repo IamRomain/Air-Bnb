@@ -1,0 +1,16 @@
+@import url(css/components/cards.css);
+@import url(css/components/navbar.css);
+@import url(css/layout/layout.css);
+
+@font-face {
+	font-family: 'Circular Std Black';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Circular Std Black'), url('../../data/CircularStd-Black.woff') format('woff');
+}
+
+
+body,
+html {
+	font-family: 'Circular Std Black';
+}
