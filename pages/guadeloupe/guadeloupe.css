@@ -2,14 +2,14 @@
 	font-family: 'Circular Std Medium';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Circular Std Medium'), url('../../data/CircularStd-Medium.woff') format('woff');
+	src: local('Circular Std Medium'), url('../../data/font/CircularStd-Medium.woff') format('woff');
 }
 
 @font-face {
 	font-family: 'Circular Std Book';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Circular Std Book'), url('../../data/CircularStd-Book.woff') format('woff');
+	src: local('Circular Std Book'), url('../../data/font/CircularStd-Book.woff') format('woff');
 }
 
 body,
@@ -22,6 +22,7 @@ html {
 	position: -webkit-sticky;
 	/* Safari */
 	position: sticky;
+	top: 2em;
 }
 
 .text {
@@ -46,7 +47,7 @@ h5 {
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
-	background-color: lightgray;
+
 }
 
 .gal {
@@ -144,17 +145,16 @@ h5 {
 	margin-bottom: 3em;
 }
 
-.house-description {
+.description-title {
+	text-align: left;
+	font-weight: bold;
+	margin-bottom: .3em;
+}
+
+.description {
 	text-align: left;
 }
 
 .username {
-	font-size:
-		.8em;
-}
-
-.house-description-title {
-	text-align: left;
-	font-weight: bold;
-	margin-bottom: .3em;
+	font-size: .8em;
 }

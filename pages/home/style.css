@@ -6,7 +6,7 @@
 	font-family: 'Circular Std Black';
 	font-style: normal;
 	font-weight: normal;
-	src: local('Circular Std Black'), url('../../data/CircularStd-Black.woff') format('woff');
+	src: local('Circular Std Black'), url('../../data/fonts/CircularStd-Black.woff') format('woff');
 }
 
 
